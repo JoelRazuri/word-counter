@@ -13,6 +13,7 @@ import os
 
 contador = 1
 frase = input("En que estas pensando?: ")
+print()
 
 for i in range(len(frase)):
     if frase[i]==" ":
@@ -20,4 +21,7 @@ for i in range(len(frase)):
 
 print(f"Entrada: {frase}")
 print(f"Salida: Muy bien, tu me has mostrado tu pensamiento en {contador} palabras.")
+print()
+input("Ingrese cualquier tecla para salir..")
+
 
